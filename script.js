@@ -4,7 +4,7 @@ function volume_sphere(e) {
 	let radious= document.getElementById('radius');
      let r= radious.value;
      let pi= 22/7;
-     let volume= 4/3*22/7*r*r*r;
+     let volume= 4/3*3.141*r*r*r;
      let vol= document.getElementById('volume')
      vol.value= volume
   
