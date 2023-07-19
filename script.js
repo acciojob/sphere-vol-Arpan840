@@ -1,12 +1,12 @@
 function volume_sphere(e) {
     //Write your code here
-	e.preventDefault()
-	let radious= document.getElementById('radius');
-     let r= radious.value;
-     let pi= 22/7;
-     let volume= 4/3*3.142*r*r*r;
-     let vol= document.getElementById('volume')
-     vol.value= volume.toFixed(2)
+	 e.preventDefault();
+  let radius = document.getElementById('radius').value;
+  let pi = 22 / 7;
+  let volume = (4 / 3) * pi * radius * radius * radius;
+  let roundedVolume = volume.toFixed(2);
+  let vol = document.getElementById('volume');
+  vol.value = roundedVolume;
   
 } 
 
